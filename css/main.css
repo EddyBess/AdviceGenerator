@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+body{
+    background: rgb(32,38,50);
+}
+
+
+@media only screen and (min-width: 651px) {
+    
+    .Card{
+        position: absolute;
+        border-radius: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 600px;
+        height: 400px;
+        background-color: hsl(217, 19%, 24%);
+        
+    }
+    
+    .Quote{
+        text-align: center;
+        padding-left: 75px;
+        padding-right: 75px;
+        font-family: Manrope;
+        color:  hsl(193, 38%, 86%);
+        font-size: 28px;
+        margin-top: 20px;
+    
+    }
+
+    
+
+}
+@media only screen and (max-width: 650px) {
+    
+    .Card{
+        position: absolute;
+        border-radius: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 350px;
+        height: 400px;
+        background-color: hsl(217, 19%, 24%);
+    
+    }
+    
+    .Quote{
+
+        text-align: center;
+        padding-left: 10px;
+        padding-right:10px;
+        padding-top: 10px;
+        font-family: Manrope;
+        color:  hsl(193, 38%, 86%);
+        font-size: 23px;
+        margin-top: 20px;
+    
+    }
+
+  
+
+    
+
+}
+.AdviceID{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Manrope;
+    color:  hsl(150, 100%, 66%);
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+.Divider{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Button{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 75px;
+    height: 75px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 100%;
+    
+}
+.Button button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: none;
+    border: none;
+
+
+}
+.Button button img{
+    transform: scale(1.5);
+}
